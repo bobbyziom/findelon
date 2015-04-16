@@ -1,11 +1,14 @@
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
 env:
-  - NODE_ENV=travis
+- NODE_ENV=travis
 services:
-  - mongodb
+- mongodb
 deploy:
   provider: heroku
-  api_key: 775734f2-db33-41bf-921c-ab654d7404f9
+  api_key:
+    secure: ZTJAaADqP91oNcBQK5rtYX+eexej2axtQ3WjUvux7Bx9YAlykiymdL98NiGeQ41NRR7lCbC5QCmRHCB1CBBKyxNaFcRYFyQVfu5I84HFYzJuGTok6eAywdCspIarYj+jLwysQS6cXRzp/fhu0/LZJd0WlsV++WCX5x4+P/Lgquo=
   app: findelon
+  on:
+    repo: bobbyziom/findelon
