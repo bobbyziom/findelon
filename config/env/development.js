@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://admin:admin@ds029117.mongolab.com:29117/testbobby',
+	db: process.env.MONGOLAB_URI,
 	app: {
 		title: 'findapp-mean-test - Development Environment'
 	},

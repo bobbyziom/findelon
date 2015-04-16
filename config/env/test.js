@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/findapp-mean-test-test',
+	db: process.env.MONGOLAB_URI,
 	port: 3001,
 	app: {
 		title: 'findapp-mean-test - Test Environment'
