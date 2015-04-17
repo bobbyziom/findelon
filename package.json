@@ -1,6 +1,6 @@
 {
 	"name": "findapp-mean-test",
-	"description": "Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js",
+	"description": "Web application for a social project (meanjs test).",
 	"version": "0.0.1",
 	"author": "Findeløn",
 	"engines": {
